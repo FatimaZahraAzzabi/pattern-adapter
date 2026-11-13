@@ -17,5 +17,8 @@ public class HdmiVgaAdapter implements VGA {
 
     }
 
+     public void setHdmi(Hdmi hdmi) {
+        this.hdmi = hdmi;
+     }
 
 }
