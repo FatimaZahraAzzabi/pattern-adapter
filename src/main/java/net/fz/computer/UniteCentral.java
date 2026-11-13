@@ -1,5 +1,19 @@
-package net.fz;
+package net.fz.computer;
 
 public class UniteCentral {
+
     private VGA vga;
+
+    public void print(String message){
+        System.out.println("**********");
+        vga.print(message);
+        System.out.println("**********");
+
+    }
+
+    public void setVga(VGA vga){
+        this.vga = vga;
+    }
+
+
 }
